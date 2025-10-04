@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>No More Survey Scams - Get Paid for ALL Your Time | TesterUp UK</title>
+    
+    <!-- DNS prefetch for faster redirects -->
+    <link rel="dns-prefetch" href="//cycsrd.mcgo2.com">
+    <link rel="preconnect" href="https://cycsrd.mcgo2.com">
+    
+    <!-- TikTok Optimization Meta Tags -->
+    <meta name="description" content="Stop getting disqualified after 15 minutes. TesterUp pays for ALL your time - no surveys, no scams. Join 50K+ UK users earning real money.">
+    <meta property="og:title" content="No More Survey Scams - Get Paid for ALL Your Time | TesterUp UK">
+    <meta property="og:description" content="Stop getting disqualified after 15 minutes. TesterUp pays for ALL your time - no surveys, no scams. Join 50K+ UK users earning real money.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="No More Survey Scams - Get Paid for ALL Your Time | TesterUp UK">
+    <meta name="twitter:description" content="Stop getting disqualified after 15 minutes. TesterUp pays for ALL your time - no surveys, no scams. Join 50K+ UK users earning real money.">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            -webkit-tap-highlight-color: transparent;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+            color: #ffffff;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 20px 15px 20px;
+        }
+
+        /* Particle background */
+        #particles-js {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+
+        /* Main card */
+        .reward-card {
+            background: rgba(255, 255, 255, 0.98);
+            border-radius: 20px;
+            padding: 1.5rem;
+            position: relative;
+            z-index: 2;
+            backdrop-filter: blur(10px);
+            border: 1px solid #ff444433;
+            max-width: 380px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(255, 68, 68, 0.15), 0 8px 32px rgba(0, 0, 0, 0.3);
+            animation: cardFloat 3s ease-in-out infinite;
+            color: #1a1a1a;
+            margin-bottom: 20px;
+            margin-top: 0px;
+        }
+
+        @keyframes cardFloat {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+
+        /* Logo section */
+        .cash-icon-container {
+            text-align: center;
+            margin-bottom: 1rem;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        .cash-icon {
+            width: 100%;
+            height: 50px;
+            background: #ffffff url('https://img.funnelish.com/69400/858897/1756159684-Testerup.png') no-repeat center/cover;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            animation: iconShine 3s infinite;
+            box-shadow: 0 6px 24px rgba(255, 68, 68, 0.3);
+            border: 2px solid #f0f0f0;
+        }
+
+        @keyframes iconShine {
+            0% { box-shadow: 0 8px 32px rgba(255, 68, 68, 0.3); }
+            50% { box-shadow: 0 12px 48px rgba(255, 68, 68, 0.5); }
+            100% { box-shadow: 0 8px 32px rgba(255, 68, 68, 0.3); }
+        }
+
+        /* Money amount section */
+        .amount {
+            font-size: 2.5rem;
+            font-weight: 900;
+            text-align: center;
+            color: #1a1a1a;
+            margin: 0.3rem 0 0.3rem;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            white-space: nowrap;
+            background: linear-gradient(135deg, #ff4444 0%, #ff6b6b 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: moneyGlow 2s infinite;
+        }
+
+        @keyframes moneyGlow {
+            0%, 100% { filter: drop-shadow(0 0 5px rgba(255, 68, 68, 0.3)); }
+            50% { filter: drop-shadow(0 0 15px rgba(255, 68, 68, 0.6)); }
+        }
+
+        #counter {
+            display: inline-block;
+            min-width: 3ch;
+            text-align: center;
+        }
+
+        .amount-subtext {
+            text-align: center;
+            font-size: 0.9rem;
+            font-weight: 700;
+            margin-bottom: 0.3rem;
+            color: #333;
+        }
+
+        /* Problem Agitation Section - REMOVED */
+
+        /* Enhanced urgency badge */
+        .urgency-badge {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 0.8rem;
+            animation: pulse 2s infinite;
+            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .urgency-badge::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            animation: urgencyShine 2s infinite;
+        }
+
+        @keyframes urgencyShine {
+            0% { left: -100%; }
+            100% { left: 100%; }
+        }
+
+        .trust-text {
+            text-align: center;
+            font-size: 0.75rem;
+            color: #555;
+            margin-bottom: 0.8rem;
+            font-weight: 500;
+        }
+
+        /* Instructions */
+        .instructions-container {
+            margin: 1rem auto 1.5rem;
+            padding: 1rem;
+            background: #f8f9fa;
+            border-radius: 12px;
+            border: 1px solid #ff44441a;
+        }
+
+        .social-proof-pill {
+            background: linear-gradient(135deg, #ff4444 0%, #cc3333 100%);
+            color: white;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 0.8rem;
+            display: inline-block;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .quick-start-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 0.8rem;
+            text-align: center;
+        }
+
+        .instruction-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 8px 0;
+            font-size: 1rem;
+            color: #1a1a1a;
+            font-weight: 600;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .instruction-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .step-number {
+            background: #ff4444;
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9rem;
+            font-weight: 900;
+            flex-shrink: 0;
+            box-shadow: 0 2px 8px rgba(255, 68, 68, 0.2);
+        }
+
+        .instruction-text {
+            flex: 1;
+            font-size: 1.1rem;
+        }
+
+        /* Enhanced CTA Button */
+        .claim-button {
+            background: linear-gradient(135deg, #ff4444 0%, #cc3333 100%);
+            color: white;
+            border: none;
+            padding: 1.2rem;
+            border-radius: 50px;
+            font-weight: 900;
+            font-size: 1.1rem;
+            width: 100%;
+            margin: 1.2rem auto 0.5rem;
+            display: block;
+            box-shadow: 0 12px 40px rgba(255, 68, 68, 0.4), 0 6px 20px rgba(0, 0, 0, 0.15);
+            transition: all 0.3s ease;
+            text-decoration: none;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            touch-action: manipulation;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .claim-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s;
+        }
+
+        .claim-button:hover::before {
+            left: 100%;
+        }
+
+        .claim-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 16px 50px rgba(255, 68, 68, 0.5), 0 8px 25px rgba(0, 0, 0, 0.2);
+            background: linear-gradient(135deg, #ff5555 0%, #dd4444 100%);
+        }
+
+        .claim-button:active {
+            transform: translateY(-1px);
+        }
+
+        /* Winner Notifications */
+        .winner-notification {
+            position: fixed;
+            top: 120px;
+            left: 50%;
+            transform: translateX(-50%) translateY(-100%);
+            background: rgba(0, 0, 0, 0.9);
+            padding: 12px 16px;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), 0 2px 8px rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 14px;
+            color: #ffffff;
+            z-index: 1000;
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            max-width: 320px;
+            width: calc(100% - 2rem);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        .winner-notification.show {
+            transform: translateX(-50%) translateY(0);
+        }
+
+        .winner-avatar {
+            width: 32px;
+            height: 32px;
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 16px;
+            flex-shrink: 0;
+            box-shadow: 0 2px 8px rgba(255, 107, 107, 0.3);
+        }
+
+        .winner-text {
+            flex: 1;
+        }
+
+        .winner-name {
+            font-weight: 600;
+            margin-bottom: 2px;
+            color: #ffffff;
+            font-size: 14px;
+        }
+
+        .winner-amount {
+            color: #00ff00;
+            font-weight: 700;
+        }
+
+        .winner-time {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 12px;
+            line-height: 1.3;
+        }
+
+        /* Performance optimizations */
+        .reward-card {
+            will-change: transform;
+        }
+
+        .claim-button {
+            will-change: transform, box-shadow;
+        }
+
+        /* Improved mobile responsiveness */
+        @media (max-width: 380px) {
+            body {
+                padding: 20px 10px 15px;
+            }
+            
+            .reward-card {
+                padding: 1.2rem;
+                max-width: 100%;
+                margin-bottom: 15px;
+                min-height: 500px;
+            }
+            
+            .cash-icon {
+                height: 60px;
+            }
+            
+            .amount {
+                font-size: 2.5rem;
+            }
+            
+            .instruction-item {
+                font-size: 0.9rem;
+            }
+            
+            .claim-button {
+                font-size: 1rem;
+                padding: 1rem;
+            }
+        }
+
+        /* TikTok-specific optimizations */
+        @media (max-width: 480px) {
+            .amount {
+                font-size: 2.2rem;
+            }
+            
+            .amount-subtext {
+                font-size: 0.85rem;
+            }
+            
+            .trust-text {
+                font-size: 0.7rem;
+            }
+        }
+
+        /* iPhone-specific optimizations */
+        @media (max-width: 414px) and (max-height: 896px) {
+            .reward-card {
+                min-height: 480px;
+                padding: 1.2rem;
+            }
+            
+            body {
+                padding: 20px 15px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Particle background canvas -->
+    <canvas id="particles-js"></canvas>
+
+    <div class="reward-card">
+
+        <div class="cash-icon-container">
+            <div class="cash-icon"></div>
+        </div>
+
+        <div class="amount">£<span id="counter">0</span>+</div>
+        <div class="amount-subtext">EARNED TESTING GAMES</div>
+        <div class="trust-text">Get paid for ALL your time • No disqualifications</div>
+
+        <!-- Simple Instructions -->
+        <div class="instructions-container">
+            <div class="social-proof-pill">Join <span id="entryCount">50,000+</span> UK users earning real money</div>
+            <div class="quick-start-title">3 Simple Steps</div>
+            
+            <div class="instruction-item">
+                <span class="step-number">1</span>
+                <div class="instruction-text">Download App</div>
+            </div>
+
+            <div class="instruction-item">
+                <span class="step-number">2</span>
+                <div class="instruction-text">Test Games</div>
+            </div>
+
+            <div class="instruction-item">
+                <span class="step-number">3</span>
+                <div class="instruction-text">Pro Tip: Make in-app purchases to earn more!</div>
+            </div>
+        </div>
+
+        <!-- Enhanced CTA Button -->
+        <a href="https://cycsrd.mcgo2.com/click" class="claim-button" id="mainCTA" target="_blank" rel="noopener noreferrer">
+            DOWNLOAD TESTERUP NOW
+        </a>
+    </div>
+
+    <script>
+        // Enhanced script tailored to Playful Rewards audience
+        (function() {
+            'use strict';
+            
+            // Countdown Timer
+            function initCountdown() {
+                const countdownElement = document.getElementById('countdown');
+                const entriesElement = document.getElementById('entriesLeft');
+                
+                let timeLeft = 23 * 3600 + 14 * 60 + 7; // 23:14:07 in seconds
+                let entriesLeft = 247;
+                
+                const timer = setInterval(() => {
+                    const hours = Math.floor(timeLeft / 3600);
+                    const minutes = Math.floor((timeLeft % 3600) / 60);
+                    const seconds = timeLeft % 60;
+                    
+                    countdownElement.textContent = 
+                        `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+                    
+                    if (timeLeft <= 0) {
+                        clearInterval(timer);
+                        countdownElement.textContent = "00:00:00";
+                    }
+                    
+                    timeLeft--;
+                }, 1000);
+                
+                // Decrease entries occasionally
+                setInterval(() => {
+                    if (entriesLeft > 50) {
+                        entriesLeft -= Math.floor(Math.random() * 3) + 1;
+                        entriesElement.textContent = entriesLeft;
+                    }
+                }, 5000);
+            }
+            
+            // Entry Counter Animation
+            function initEntryCounter() {
+                const counterElement = document.getElementById('entryCount');
+                let currentCount = 50000;
+                
+                setInterval(() => {
+                    currentCount += Math.floor(Math.random() * 5) + 1;
+                    counterElement.textContent = currentCount.toLocaleString() + '+';
+                }, 3000);
+            }
+            
+            // Counter animation with improved performance
+            function animateValue(element, start, end, duration) {
+                let startTimestamp = null;
+                const step = (timestamp) => {
+                    if (!startTimestamp) startTimestamp = timestamp;
+                    const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                    const currentValue = progress * (end - start) + start;
+                    element.textContent = Math.floor(currentValue);
+                    if (progress < 1) {
+                        window.requestAnimationFrame(step);
+                    }
+                };
+                window.requestAnimationFrame(step);
+            }
+
+            // Start counter animation on load
+            function initCounter() {
+                const counterElement = document.getElementById('counter');
+                if (counterElement) {
+                    animateValue(counterElement, 0, 700, 2500);
+                }
+            }
+
+            // Winner Notifications tailored to UK audience
+            const winnerNames = [
+                'James W.', 'Emma T.', 'Oliver S.', 'Sophie M.', 'Harry R.',
+                'Isabella C.', 'George B.', 'Charlotte L.', 'William H.', 'Amelia K.',
+                'Jack D.', 'Grace P.', 'Noah F.', 'Mia J.', 'Charlie G.',
+                'Ella N.', 'Oscar V.', 'Poppy A.', 'Archie W.', 'Lily R.'
+            ];
+            
+            const ukRegions = [
+                'London', 'Manchester', 'Birmingham', 'Leeds', 'Glasgow',
+                'Edinburgh', 'Liverpool', 'Bristol', 'Newcastle', 'Sheffield',
+                'Nottingham', 'Leicester', 'Coventry', 'Bradford', 'Cardiff',
+                'Belfast', 'Brighton', 'Hull', 'Plymouth', 'Stoke-on-Trent'
+            ];
+            
+            let winnerNotificationCount = 0;
+            const maxWinnerNotifications = 2;
+
+            function createWinnerNotification() {
+                if (winnerNotificationCount >= maxWinnerNotifications) return;
+                
+                const notification = document.createElement('div');
+                notification.className = 'winner-notification';
+                
+                const randomName = winnerNames[Math.floor(Math.random() * winnerNames.length)];
+                const randomRegion = ukRegions[Math.floor(Math.random() * ukRegions.length)];
+                const randomAmount = Math.floor(Math.random() * 500 + 300);
+                
+                const messages = [
+                    `${randomName} from ${randomRegion} just earned £${randomAmount} testing games!`,
+                    `${randomName} from ${randomRegion} made £${randomAmount} - no surveys needed!`,
+                    `${randomName} from ${randomRegion} earned £${randomAmount} in 2 hours of game testing!`
+                ];
+                
+                notification.innerHTML = `
+                    <div class="winner-avatar">🎮</div>
+                    <div class="winner-text">
+                        <div class="winner-name">${messages[Math.floor(Math.random() * messages.length)]}</div>
+                        <div class="winner-time">2 minutes ago</div>
+                    </div>
+                `;
+                
+                document.body.appendChild(notification);
+                winnerNotificationCount++;
+                
+                setTimeout(() => notification.classList.add('show'), 100);
+                setTimeout(() => {
+                    notification.classList.remove('show');
+                    setTimeout(() => {
+                        if (notification.parentNode) {
+                            notification.remove();
+                            winnerNotificationCount--;
+                        }
+                    }, 300);
+                }, 4000);
+            }
+
+            // Optimized particle animation system
+            function initParticles() {
+                const canvas = document.getElementById('particles-js');
+                if (!canvas) return;
+                
+                const ctx = canvas.getContext('2d');
+                const particles = [];
+                const particleCount = 20;
+                const maxDistance = 120;
+                const mousePos = { x: null, y: null };
+                
+                function setCanvasSize() {
+                    canvas.width = window.innerWidth;
+                    canvas.height = window.innerHeight;
+                }
+                
+                setCanvasSize();
+                window.addEventListener('resize', setCanvasSize);
+                
+                window.addEventListener('mousemove', (e) => {
+                    mousePos.x = e.clientX;
+                    mousePos.y = e.clientY;
+                });
+                
+                class Particle {
+                    constructor() {
+                        this.x = Math.random() * canvas.width;
+                        this.y = Math.random() * canvas.height;
+                        this.vx = (Math.random() - 0.5) * 0.6;
+                        this.vy = (Math.random() - 0.5) * 0.6;
+                        this.radius = 2;
+                    }
+                    
+                    update() {
+                        this.x += this.vx;
+                        this.y += this.vy;
+                        
+                        if (this.x < 0 || this.x > canvas.width) this.vx = -this.vx;
+                        if (this.y < 0 || this.y > canvas.height) this.vy = -this.vy;
+                        
+                        if (mousePos.x !== null && mousePos.y !== null) {
+                            const dx = this.x - mousePos.x;
+                            const dy = this.y - mousePos.y;
+                            const distance = Math.sqrt(dx * dx + dy * dy);
+                            
+                            if (distance < 80) {
+                                const force = (80 - distance) / 80;
+                                this.x += dx * force * 0.015;
+                                this.y += dy * force * 0.015;
+                            }
+                        }
+                    }
+                    
+                    draw() {
+                        ctx.beginPath();
+                        ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+                        ctx.fillStyle = '#ff4444';
+                        ctx.fill();
+                    }
+                }
+                
+                for (let i = 0; i < particleCount; i++) {
+                    particles.push(new Particle());
+                }
+                
+                let animationId;
+                function animate() {
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    
+                    particles.forEach((particle, i) => {
+                        particle.update();
+                        particle.draw();
+                        
+                        for (let j = i + 1; j < particles.length; j++) {
+                            const otherParticle = particles[j];
+                            const dx = particle.x - otherParticle.x;
+                            const dy = particle.y - otherParticle.y;
+                            const distance = Math.sqrt(dx * dx + dy * dy);
+                            
+                            if (distance < maxDistance) {
+                                ctx.beginPath();
+                                ctx.moveTo(particle.x, particle.y);
+                                ctx.lineTo(otherParticle.x, otherParticle.y);
+                                const opacity = (1 - distance / maxDistance) * 0.2;
+                                ctx.strokeStyle = `rgba(255, 68, 68, ${opacity})`;
+                                ctx.lineWidth = 0.8;
+                                ctx.stroke();
+                            }
+                        }
+                    });
+                    
+                    animationId = requestAnimationFrame(animate);
+                }
+                
+                animate();
+                
+                return () => {
+                    if (animationId) {
+                        cancelAnimationFrame(animationId);
+                    }
+                };
+            }
+
+            // Initialize everything when DOM is ready
+            function init() {
+                try {
+                    initCounter();
+                    initCountdown();
+                    initEntryCounter();
+                    const cleanupParticles = initParticles();
+                    
+                    // Start notification systems
+                    setTimeout(() => {
+                        createWinnerNotification();
+                        setInterval(createWinnerNotification, Math.random() * 6000 + 12000);
+                    }, 3000);
+                    
+                    // Cleanup on page unload
+                    window.addEventListener('beforeunload', () => {
+                        if (cleanupParticles) cleanupParticles();
+                    });
+                } catch (error) {
+                    console.warn('Initialization error:', error);
+                }
+            }
+
+            // Wait for DOM to be ready
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', init);
+            } else {
+                init();
+            }
+        })();
+    </script>
+</body>
+</html>
